@@ -383,7 +383,7 @@ with tab1:
             </div>
             """, unsafe_allow_html=True)
             fig = make_gauge(prob)
-            st.pyplot(fig, width='stretch')
+            st.pyplot(fig)
             plt.close(fig)
 
         with col_metrics:
