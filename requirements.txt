@@ -4,5 +4,5 @@ streamlit==1.43.0
 xgboost
 lightgbm
 imbalanced-learn
-matplotlib=3.10.8
+matplotlib==3.10.8
 seaborn
